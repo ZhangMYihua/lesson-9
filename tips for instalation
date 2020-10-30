@@ -1,0 +1,10 @@
+The version of firebase on code is too old and will give you a lot of problems without solution, 
+small tutorial to isntalation:
+0 - delete firebase from dependencies on package-json file
+1 - cut the firebase folder from lesson-9/src to another place outside lesson-9 folder
+2 - replace variable config inside firebase.utils.js file to your own config.
+3 - comment firebase calls on App.js, header.component.jsx and sign-in.component.jsx
+4 - do command yarn update on lesson-9 folder
+5 - do command yarn add firebase
+6 - move firebase folter to lesson-9/src
+7 - undo the step 3. And will work. 
